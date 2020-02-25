@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: No CollisionMap
+    uniqueID: 1996142389
+    locked: 0
+  - name: CollisionMap
+    uniqueID: 3667305989
+    locked: 0
+  - name: Player
+    uniqueID: 3149794717
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
