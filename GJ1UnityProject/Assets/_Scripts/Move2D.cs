@@ -15,6 +15,7 @@ public class Move2D : MonoBehaviour
 
     void Update()
     {
+        transform.localRotation = new Quaternion(0,0,0,0);
         Jump();
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * moveSpeed;
